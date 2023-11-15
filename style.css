@@ -1,0 +1,29 @@
+* {
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    outline: 1px orange;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0 grey;
+    color: white;
+}
+
+input {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 100%;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: orange;
+}
+
+input ::placeholder {
+    color: grey;
+}
